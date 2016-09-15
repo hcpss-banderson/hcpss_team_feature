@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.athletic_team.body
+    - field.field.node.athletic_team.field_staff_sponsor
+    - field.field.node.athletic_team.field_website
+    - node.type.athletic_team
+  module:
+    - user
+id: node.athletic_team.default
+targetEntityType: node
+bundle: athletic_team
+mode: default
+content: {  }
+hidden:
+  body: true
+  field_staff_sponsor: true
+  field_website: true
+  links: true
